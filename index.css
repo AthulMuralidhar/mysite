@@ -1,0 +1,12 @@
+#home{
+  margin: 10px;
+}
+.footer_text{
+  color: grey;
+}
+.alignleft {
+	float: left;
+}
+.alignright {
+	float: right;
+}
