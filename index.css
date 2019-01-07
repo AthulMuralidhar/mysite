@@ -10,3 +10,8 @@
 .alignright {
 	float: right;
 }
+video{
+  padding: 20px;
+  margin: 20px;
+  align: center;
+}
