@@ -1,0 +1,19 @@
+#home,#contactinfo{
+  margin: 10px;
+  padding-left: 10%;
+  padding-right: 10%
+}
+.footer_text{
+  color: grey;
+}
+.alignleft {
+	float: left;
+}
+.alignright {
+	float: right;
+}
+video{
+  padding: 20px;
+  margin: 20px;
+  align: center;
+}
