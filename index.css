@@ -1,5 +1,7 @@
-#home{
+#home,#contactinfo,#projects{
   margin: 10px;
+  padding-left: 10%;
+  padding-right: 10%
 }
 .footer_text{
   color: grey;
@@ -14,4 +16,8 @@ video{
   padding: 20px;
   margin: 20px;
   align: center;
+}
+.img_project{
+  height: 10%;
+  width: 10%;
 }

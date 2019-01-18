@@ -1,0 +1,37 @@
+<!-- check out: https://www.sitepoint.com/bootstrap-carousel-with-css3-animations/ -->
+<!DOCTYPE html>
+<html dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+    <title>mysite</title>
+  </head>
+  <body>
+    <header class="jumbotron">
+      <h1 align="center">Hello world, hello cosmos! </h1>
+      <nav class="nav nav-pills flex-column flex-sm-row ">
+        <a class="flex-sm-fill text-sm-center nav-link" href="t_index.html">Home</a>
+        <a class="flex-sm-fill text-sm-center nav-link" href="maintenance.html">Current Projects</a>
+        <a class="flex-sm-fill text-sm-center nav-link" href="contactinfo.html">Contact</a>
+        <a class="flex-sm-fill text-sm-center nav-link" href="maintenance.html">Blog</a>
+      </nav>
+    </header>
+    {% block heading %}{% endblock %}
+    {% block body %}{% endblock %}
+    <footer class="jumbotron">
+        <nav class="nav nav-pills flex-column flex-sm-row ">
+        <a class="flex-sm-fill text-sm-center nav-link" href="t_index.html">Home</a>
+        <a class="flex-sm-fill text-sm-center nav-link" href="maintenance.html">Current Projects</a>
+        <a class="flex-sm-fill text-sm-center nav-link" href="contactinfo.html">Contact</a>
+        <a class="flex-sm-fill text-sm-center nav-link" href="maintenance.html">Blog</a>
+      </nav>
+      <br>
+      <div class="footer_text">
+        <p class="alignleft">ingredients: html5+css+bootstrap</p>
+        <p class="alignright">freshly baked, from athul muralidhar  &#9829;</p>
+      </div>
+      <div style="clear: both;"></div>
+    </footer>
+  </body>
+</html>
